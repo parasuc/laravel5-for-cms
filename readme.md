@@ -11,6 +11,7 @@
 1,git clone origin git@github.com:yuezhaoxuan/laravel5-for-cms.git
 2,将 appcms文件中的appcms.sql文件导入数据库
 3,修改项目数据库的配置文件 详情见 laravel5 文档说明 
+4,用户登陆Email：admin@163.coom 登陆密码：111111
 ```
 ##声明
 ```
