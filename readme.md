@@ -1,23 +1,18 @@
-## Laravel PHP Framework
-
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+## laravl5 cms 是一个用laravel5 框架作为架构的内容管理系统
+```
+用户管理： 用户添加 用户修改 用户删除 用户分组； 
+用户组管理：添加 修改 删除 对组添加权限；
+权限管理：添加权限 删除权限 修改权限 关联用户组 .
+栏目管理：栏目将的添加 删除 修改 无限递归添加
+文章管理：文章的添加 文章删除 文章修改 文章与栏目的关联
+```
+## 安装步奏
+```
+1,git clone origin git@github.com:yuezhaoxuan/laravel5-for-cms.git
+2,将 appcms文件中的appcms.sql文件导入数据库
+3,修改项目数据库的配置文件 详情见 laravel5 文档说明 
+```
+##声明
+```
+本管理系统使用themedesigner模板 在此感谢themedesigner developers
+```	
